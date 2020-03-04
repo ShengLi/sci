@@ -1,13 +1,15 @@
 # **Sub-compartment Identifier (SCI)**
 --------------
 
-**Authors**: Haitham Ashoor, Sheng Li  **Contact**: haitham.ashoor@jax.org, sheng.li@jax.org
-
+**Authors**: Haitham Ashoor, Sheng Li;  **Contact**: haitham.ashoor@jax.org, sheng.li@jax.org
 
 ## Description 
 SCI is a program to identify sub-compartments from HiC data. SCI utilizes graph embedding followed by K-means clustering in order to predict sub-compartments from HiC data. 
 
 ![SCI workflow](images/sci.jpg)
+
+## Citation
+Ashoor, H., Chen, X., Rosikiewicz, W. et al. Graph embedding and unsupervised learning predict genomic sub-compartments from HiC chromatin interaction data. Nat Commun 11, 1173 (2020). https://doi.org/10.1038/s41467-020-14974-x
 
 ## Dependencies
 * python 2.7
